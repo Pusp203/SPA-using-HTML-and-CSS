@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,700;1,200&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500;600;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.about__fold {
+  background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
+  max-width: 1650.36px;
+  /* margin: auto; */
+  padding-inline: 30px;
+}
+.container {
+  justify-content: space-between;
+}
+.main__nav {
+  /* margin-top: 2rem; */
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.logod {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+/* p a img .drop__down {
+  gap: 2px;
+  flex-direction: row;
+} */
+.nav__items {
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+.nav__links {
+  text-decoration: none;
+  color: #000000;
+}
+.sign {
+  gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+.primary-button {
+  border: 1px solid #4f46ba;
+  background: #4f46ba;
+  padding: 17px 16px 36px;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/*Header section*/
+header {
+  /* padding: 50px 20px 0px; */
+  /* margin-top: 1rem; */
+  padding-inline: 30px;
+}
+.header-section {
+  justify-content: flex-start;
+  gap: 50px;
+}
+.header-left {
+  /* padding: 50px 20px 0px; */
+  max-width: 50vw;
+}
+
+.header-left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: -0.02em;
+
+  color: #64607d;
+  margin-bottom: 22px;
+}
+.header-left h1 {
+  /* margin-top: 1rem; */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 80px;
+  /* or 133% */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.buttons {
+  gap: 30px;
+}
+
+.primary-button1 {
+  border: 1px solid #4f46ba;
+
+  padding: 17px 16px 36px;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #3734a9;
+  border-radius: 47px;
+  text-decoration: none;
+}
+.how__it-works {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 176% */
+
+  letter-spacing: -0.02em;
+
+  /* Pallet 4 / Primary */
+
+  color: #3734a9;
+  gap: 12px;
+}
+.bottom-header {
+  gap: 25px;
+  margin-top: 1rem;
+}
+.bottom-header p a {
+  text-decoration: none;
+}
+.bottom-header p a:hover {
+  color: red;
+}
+.bottom-header p {
+  gap: 12px;
+}
+.header-right {
+  justify-content: flex-end;
+  gap: 20px;
+}
+.header-right img {
+  width: 400px;
+  margin-top: 1rem;
+}
+/* Company Section*/
+.comapnies__section {
+  background-color: #f5f6f8;
+  text-align: center;
+  padding: 1rem;
+}
+.com {
+  padding: 20px;
+}
+.company__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.company__images {
+  justify-content: space-evenly;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+/* Section Heading*/
+.section__heading {
+  max-width: 1171px;
+  margin: 4rem;
+  padding-inline: 30px;
+  gap: 320px;
+}
+.heading__2 {
+  /* max-width: 646px; */
+  /* flex-direction: column; */
+}
+.min__heading {
+  max-width: 646px;
+}
+.section__heading h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 66px;
+  /* or 118% */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+.section__heading p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  letter-spacing: -0.02em;
+}
+
+.testi__monials {
+  width: 402px;
+
+  background: #c4c4c4;
+  opacity: 0.3;
+
+  border-radius: 20px;
+  padding: 30px;
+}
+.testi__monials p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+
+  letter-spacing: -0.02em;
+
+  color: blue;
+}
